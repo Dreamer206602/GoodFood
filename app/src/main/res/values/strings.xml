@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoodFood</string>
+    <!--PubActitvity 提示信息 -->
+    <string name="aheady_pbg_post_save">正在提交</string>
+    <string name="tab_message">消息</string>
+</resources>

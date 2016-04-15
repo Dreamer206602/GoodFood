@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="toast_text_color">#ff606060</color>
+    <color name="v3_font_white">#fff</color>	<!-- 字体全局白色-->
+    <color name="color_3399cc">#3399cc</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_d7d7d7">#d7d7d7</color>
+    <color name="color_4eb6e6">#4eb6e6</color>
+    <color name="color_FF0000">#FF0000</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+</resources>

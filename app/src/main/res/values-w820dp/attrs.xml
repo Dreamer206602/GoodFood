@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    "reference" //引用
+	"color" //颜色
+	"boolean" //布尔值
+	"dimension" //尺寸值
+	"float" //浮点值
+	"integer" //整型值
+	"string" //字符串
+	"fraction" //百分数,比如200%
+
+
+
+    -->
+    <!-- 类似更多的选项 -->
+    <declare-styleable name="action_setting">
+        <attr name="setHeadImage" format="reference" />
+        <attr name="setEndImage" format="reference" />
+        <attr name="setContentImage" format="reference" />
+        <attr name="setTitle" format="string" />
+        <attr name="setText" format="string" />
+        <attr name="setSummaryBackground" format="reference" />
+        <attr name="setSummaryColor" format="reference" />
+        <attr name="focusable" format="boolean" />
+        <attr name="setTextGravity" format="integer" />
+        <attr name="setLeftTextSize" format="integer" />
+        <attr name="setRighttTextSize" format="integer" />
+        <attr name="setOnClickable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="circle_border_width" format="dimension" />
+        <attr name="circle_border_color" format="color" />
+    </declare-styleable>
+    <!-- 头部的功能条 -->
+    <declare-styleable name="action_bar">
+        <attr name="setHomeText" format="string" />
+        <attr name="setHomeImage" format="reference" />
+        <attr name="setActionImage" format="reference" />
+        <attr name="setActionText" format="string" />
+    </declare-styleable>
+    <!-- 顶部的切换标签 -->
+    <declare-styleable name="action_top_tab">
+        <attr name="setDefaultTabId" format="integer" />
+        <attr name="setTabText" format="reference" />
+    </declare-styleable>
+    <!-- 划屏 -->
+    <declare-styleable name="scroller_viewgroup">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+     <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PanningView">
+        <attr name="panningDurationInMs" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeListView">
+        <attr name="swipeOpenOnLongPress" format="boolean"/>
+        <attr name="swipeAnimationTime" format="integer"/>
+        <attr name="swipeOffsetLeft" format="dimension"/>
+        <attr name="swipeOffsetRight" format="dimension"/>
+        <attr name="swipeCloseAllItemsWhenMoveList" format="boolean"/>
+        <attr name="swipeFrontView" format="reference"/>
+        <attr name="swipeBackView" format="reference"/>
+        <attr name="swipeMode" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="both" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="left" value="3"/>
+        </attr>
+        <attr name="swipeActionLeft" format="enum">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr>
+        <attr name="swipeActionRight" format="enum">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr>
+        <attr name="swipeDrawableChecked" format="reference"/>
+        <attr name="swipeDrawableUnchecked" format="reference"/>
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+    <declare-styleable name="MovieRecorderView">
+        <!-- 开始是否打开摄像头 -->
+        <attr name="is_open_camera" format="boolean" />
+        <!-- 一次拍摄最长时间 -->
+        <attr name="record_max_time" format="integer"/>
+        <!-- 视频分辨率宽度 -->
+        <attr name="video_width" format="integer"/>
+        <!-- 视频分辨率高度 -->
+        <attr name="video_height" format="integer"/>
+    </declare-styleable>
+</resources>
